@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>datingApp - Profiel: Karel</title>
+</head>
+<body>
+<header>
+    <img src="images/testProfielImg.jpg">
+    <a href="/profile/settings">Instellingen</a>
+    Naam: <%= voornaam %>
+    Leeftijd: <%= leeftijd %> jaar
+</header>
+
+<div>
+    <h1>Introductie</h1>
+    <a href="/">Log Uit</a>
+    <p><%= introductie %></p>
+
+    <h1>Profiel Aanvullen</h1>
+    <p>Door je profiel verder aan te vullen is het mogelijk specifieker matches te maken.<br>
+        Hoe meer jij over jezelf verteld hoe beter de matches zullen zijn en hoe meer mensen jou kunnen vinden.<br>
+        Ook krijg je zelf meer controle over wat je precies zoekt, zo kun je meer voorkeuren aangeven en specifieker opzoek gaan naar je soulmate.<br>
+        <a href="/profile/fill">Profiel aanvullen</a>
+    </p>
+</div>
+
+<div>
+    <h1>Casual Gesprek voeren met:</h1>
+    <ul>
+        <li><a href="/users/chat01"><img src="images/jason.jpg">Jason, 23 jaar</a></li>
+        <li><a href="/users/chat02"><img src="images/girl_01.jpg">Eve, 22 jaar</a></li>
+        <li><a href="/users/chat02"><img src="images/girl_02.jpg">Julia, 20 jaar</a></li>
+        <li><a href="/users/chat02"><img src="images/girl_03.jpg">Bella, 24 jaar</a></li>
+    </ul>
+
+</div>
+
+<footer>
+    <h1>Matches</h1>
+    <li><a href="/users/user02"><img src="images/girl_04.jpg">Saartje, 19 jaar</a></li>
+    <li><a href="/users/user02"><img src="images/girl_05.jpg">Maud, 25 jaar</a></li>
+    <li><a href="/users/user02"><img src="images/girl_06.jpg">Jodi, 23 jaar</a></li>
+
+</footer>
+
+</body>
+</html>
